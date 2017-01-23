@@ -15,6 +15,10 @@ describe 'fizzbuzz' do
 
   it 'returns 1 when passed 1' do
     expect(fizzbuzz(1)).to eq 1
+  end
 
-end
+  it 'returns "Error!" when passed "five"' do
+    expect(fizzbuzz("five")).to eq "Error!"
+  end
+
 end
